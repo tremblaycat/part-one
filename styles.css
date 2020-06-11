@@ -1,0 +1,155 @@
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    text-align: center;
+    color: #000;
+
+}
+
+/*First section*/
+
+body {
+    margin: none;
+}
+
+h1 {
+    color: #20a8b4;
+    display: flex;
+    text-align: flex-start;
+    margin-left: 10px;
+    size: 20px;
+}
+
+span {
+    white-space: pre;
+}
+
+
+.Code {
+    color: #ff5c0f;
+}
+
+
+ul {
+    color: #000;
+    list-style: none;
+    text-align: start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: none;
+}
+
+li {}
+
+li:hover {
+    color: #ff5c0f;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: none;
+    
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    margin: none;
+    width: auto;
+}
+
+
+
+button {
+    display: block;
+    text-align: center;
+    background-color: #20a8b4;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 12px;
+    margin: 10px;
+    width: 100%;
+    position: relative;
+
+}
+
+.parent {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: none;
+
+}
+
+/*Second section*/
+
+section {
+    display: table-cell;
+    flex-direction: column;
+    text-align: start;
+    background-color: #fff;
+    font-family: "Roboto", Arial, sans-serif;
+    align-items: start;
+    justify-content: start;
+    padding: 5%;
+    font-size: 75%;
+    margin: none;
+}
+
+h2 {
+    color: black;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+button:hover {
+    background-color: #ff5c0f;
+    color:#fff;
+}
+
+.learn {
+    color: #ff5c0f;
+
+}
+
+.pic1 {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .parent {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .pic1 {
+        display: table-cell;
+        height: 50%;
+        width: 50%;
+        align-items: right;
+    }
+    li {
+        text-align: center;
+        flex-direction: row;
+        justify-content: flex-start;
+        display: inline;
+
+    }
+    
+    section {
+        margin: auto;
+        font-size: 100%;
+    }
+    button {
+        display: auto;
+        align-items: flex-start;
+        width: auto;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+}
+  
